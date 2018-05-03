@@ -7,16 +7,16 @@
  * http://mathjs.org/docs/reference/functions.html#statistics-functions
  */
 
-import * as mathjs from "@types/mathjs";
+import * as mathjs from "mathjs";
 
  /**
  * Compute the median absolute deviation of an array of numbers.
  * @param nums Array of numbers.
  * @returns Median.
  */
-export function mad(nums: number[]): number {
-    return mathjs.mad(...nums);
-}
+// export function mad(nums: number[]): number {
+//     return mathjs.mad(nums);
+// }
 
  /**
  * Compute the mean value of an array of numbers.
@@ -24,7 +24,7 @@ export function mad(nums: number[]): number {
  * @returns Mean.
  */
 export function mean(nums: number[]): number {
-    return mathjs.mean(...nums);
+    return mathjs.mean(nums);
 }
 
  /**
@@ -33,7 +33,7 @@ export function mean(nums: number[]): number {
  * @returns Median.
  */
 export function median(nums: number[]): number {
-    return mathjs.median(...nums);
+    return mathjs.median(nums);
 }
 
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
@@ -81,7 +81,7 @@ export function min(nums: number[]): number {
  * @returns Mode.
  */
 export function mode(nums: number[]): number {
-    return mathjs.mode(...nums);
+    return mathjs.mode(nums);
 }
 
  /**
@@ -90,7 +90,7 @@ export function mode(nums: number[]): number {
  * @returns Product.
  */
 export function product(nums: number[]): number {
-    return mathjs.prod(...nums);
+    return mathjs.prod(nums);
 }
 
  /**
@@ -99,7 +99,7 @@ export function product(nums: number[]): number {
  * @returns Standard deviation.
  */
 export function std(nums: number[]): number {
-    return mathjs.std(...nums);
+    return mathjs.std(nums);
 }
 
  /**
@@ -108,7 +108,7 @@ export function std(nums: number[]): number {
  * @returns Sum.
  */
 export function sum(nums: number[]): number {
-    return mathjs.sum(...nums);
+    return mathjs.sum(nums);
 }
 
  /**
@@ -117,5 +117,5 @@ export function sum(nums: number[]): number {
  * @returns Variance.
  */
 export function variance(nums: number[]): number {
-    return mathjs.var(...nums);
+    return mathjs.var(nums);
 }

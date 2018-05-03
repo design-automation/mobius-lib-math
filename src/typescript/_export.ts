@@ -1,11 +1,14 @@
-import * as cons from "./cons";
-export {cons};
+import * as calc from "./calc";
+export {calc};
 
-import * as func from "./func";
-export {func};
+import * as consts from "./consts";
+export {consts};
 
 import * as rand from "./rand";
 export {rand};
+
+import * as round from "./round";
+export {round};
 
 import * as stats from "./stats";
 export {stats};

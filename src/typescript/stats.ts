@@ -36,6 +36,45 @@ export function median(nums: number[]): number {
     return mathjs.median(...nums);
 }
 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/max
+/**
+ * Returns the largest number in a array of numbers.
+ *
+ * @param nums Array of numbers.
+ * @returns The largest number in specified array of numbers.
+ *
+ * <h3>Example:</h3>
+ * <code>
+ * array = [8,9,6,1,3]<br/>
+ * num = Math.max(array)
+ * </code><br/><br/>
+ * </code>
+ * Expected value of num is 9.
+ */
+export function max(nums: number[]): number {
+    if (nums === undefined) {throw new Error("Invalid arg: nums must be defined.");}
+    return Math.max(...nums);
+}
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/min
+/**
+ * Returns the smallest number in a array of numbers.
+ *
+ * @param nums Array of numbers.
+ * @returns The smallest number in specified array of numbers.
+ *
+ * <h3>Example:</h3>
+ * <code>
+ * nums = [8,9,6,1,3]<br/>
+ * num = Math.min(nums)
+ * </code><br/><br/>
+ * Expected value of num is 1.
+ */
+export function min(nums: number[]): number {
+    if (nums === undefined) {throw new Error("Invalid arg: nums must be defined.");}
+    return Math.min(...nums);
+}
+
  /**
  * Compute the mode of an array of numbers.
  * @param nums Array of numbers.

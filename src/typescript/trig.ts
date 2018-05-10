@@ -72,7 +72,6 @@ export function acos(num: number): number {
     return Math.acos(num)*(180/Math.PI);
 }
 
-
 /**
  * Returns the hyperbolic cosine (in degrees) of a number.
  *

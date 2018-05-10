@@ -1,7 +1,7 @@
 {
     "name": "mobius-math",
     "license": "MIT",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Patrick Janssen",
     "description": "Mobius library that wraps math.js.",
     "homepage": "https://github.com/design-automation/mobius-math#readme",

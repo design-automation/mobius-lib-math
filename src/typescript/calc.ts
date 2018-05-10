@@ -12,11 +12,8 @@
  * @param base Base number.
  * @param exponent Power of exponent.
  * @returns Number representing the given base taken to the power of the given exponent.
- *
- * <h3>Example:</h3>
- * <code>
- * num = Math.pow(2,3)
- * </code><br/><br/>
+ * @example num = Math.pow(2,3)
+ * 
  * Expected value of num is 8.
  */
 export function pow(base: number, exponent: number): number {

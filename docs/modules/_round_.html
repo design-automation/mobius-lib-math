@@ -99,7 +99,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/6b53e9f/src/typescript/round.ts#L79">round.ts:79</a></li>
+									<li>Defined in <a href="https://github.com/design-automation/mobius-math/blob/0c89d51/src/typescript/round.ts#L67">round.ts:67</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -107,6 +107,13 @@
 									<p>Returns the absolute value of a number.</p>
 								</div>
 								<p>Returns num if num is positive, -num if num is negative and 0 if num=0<br/></p>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num1 = Math.abs(-1.234)
+										num2 = Math.abs(2.345)</p>
+										<p>Expected value of num1 is 1.234, and of num2 is 2.345.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -119,12 +126,6 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>The absolute value of the specified number.</p>
-							<p><h3>Example:</h3>
-								<code>
-num1 = Math.abs(-1.234)
-num2 = Math.abs(2.345)<br/>
-</code><br/><br/>
-							Expected value of num1 is 1.234, and of num2 is 2.345.</p>
 						</li>
 					</ul>
 				</section>
@@ -138,13 +139,19 @@ num2 = Math.abs(2.345)<br/>
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/6b53e9f/src/typescript/round.ts#L40">round.ts:40</a></li>
+									<li>Defined in <a href="https://github.com/design-automation/mobius-math/blob/0c89d51/src/typescript/round.ts#L34">round.ts:34</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Rounds a number up to the nearest integer.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.ceiling(4.3)</p>
+										<p>Expected value of num is 5.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -157,11 +164,6 @@ num2 = Math.abs(2.345)<br/>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>The smallest integer more than or equal to the specified number.</p>
-							<p><h3>Example:</h3>
-								<code>
-num = Math.ceiling(4.3)
-</code><br/><br/>
-							Expected value of num is 5.</p>
 						</li>
 					</ul>
 				</section>
@@ -175,13 +177,19 @@ num = Math.ceiling(4.3)
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/6b53e9f/src/typescript/round.ts#L58">round.ts:58</a></li>
+									<li>Defined in <a href="https://github.com/design-automation/mobius-math/blob/0c89d51/src/typescript/round.ts#L49">round.ts:49</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Rounds a number down to the nearest integer.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.floor(4.3)</p>
+										<p>Expected value of num is 4.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -194,11 +202,6 @@ num = Math.ceiling(4.3)
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>The largest integer less than or equal to the specified number.</p>
-							<p><h3>Example:</h3>
-								<code>
-num = Math.floor(4.3)
-</code><br/><br/>
-							Expected value of num is 4.</p>
 						</li>
 					</ul>
 				</section>
@@ -212,13 +215,19 @@ num = Math.floor(4.3)
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/6b53e9f/src/typescript/round.ts#L22">round.ts:22</a></li>
+									<li>Defined in <a href="https://github.com/design-automation/mobius-math/blob/0c89d51/src/typescript/round.ts#L19">round.ts:19</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Returns the value of a number rounded to the nearest integer.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.round(4.5)</p>
+										<p>Expected value of num is 5.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -231,11 +240,6 @@ num = Math.floor(4.3)
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
 							<p>The nearest integer.</p>
-							<p><h3>Example:</h3>
-								<code>
-num = Math.round(4.5)
-</code><br/><br/>
-							Expected value of num is 5.</p>
 						</li>
 					</ul>
 				</section>

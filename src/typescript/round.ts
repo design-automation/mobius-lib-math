@@ -12,11 +12,8 @@
  *
  * @param num Number.
  * @returns The nearest integer.
- *
- * <h3>Example:</h3>
- * <code>
- * num = Math.round(4.5)
- * </code><br/><br/>
+ * @example num = Math.round(4.5)
+ * 
  * Expected value of num is 5.
  */
 export function nearest(num: number): number {
@@ -30,11 +27,8 @@ export function nearest(num: number): number {
  *
  * @param num Number.
  * @returns The smallest integer more than or equal to the specified number.
+ * @example num = Math.ceiling(4.3)
  *
- * <h3>Example:</h3>
- * <code>
- * num = Math.ceiling(4.3)
- * </code><br/><br/>
  * Expected value of num is 5.
  */
 export function ceil(num: number): number {
@@ -48,11 +42,8 @@ export function ceil(num: number): number {
  *
  * @param num Number.
  * @returns The largest integer less than or equal to the specified number.
- *
- * <h3>Example:</h3>
- * <code>
- * num = Math.floor(4.3)
- * </code><br/><br/>
+ * @example num = Math.floor(4.3)
+ * 
  * Expected value of num is 4.
  */
 export function floor(num: number): number {
@@ -68,12 +59,9 @@ export function floor(num: number): number {
  *
  * @param num Number.
  * @returns The absolute value of the specified number.
+ * @example num1 = Math.abs(-1.234)
+ * num2 = Math.abs(2.345)
  *
- * <h3>Example:</h3>
- * <code>
- * num1 = Math.abs(-1.234)
- * num2 = Math.abs(2.345)<br/>
- * </code><br/><br/>
  * Expected value of num1 is 1.234, and of num2 is 2.345.
  */
 export function abs(num: number): number {

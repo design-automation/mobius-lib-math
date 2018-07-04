@@ -1,8 +1,8 @@
 import * as calc from "./calc";
 export {calc};
 
-import * as consts from "./consts";
-export {consts};
+// import * as consts from "./consts";
+// export {consts};
 
 import * as rand from "./rand";
 export {rand};

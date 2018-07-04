@@ -12,7 +12,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/_export.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/_export.ts",
 			"sources": [
 				{
 					"fileName": "_export.ts",
@@ -29,7 +29,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/calc.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/calc.ts",
 			"comment": {
 				"shortText": "General math functions."
 			},
@@ -279,7 +279,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/consts.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/consts.ts",
 			"comment": {
 				"shortText": "Constants"
 			},
@@ -411,7 +411,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/rand.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/rand.ts",
 			"comment": {
 				"shortText": "Functions for generating pseudo-random numbers."
 			},
@@ -604,7 +604,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/round.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/round.ts",
 			"comment": {
 				"shortText": "Rounding functions."
 			},
@@ -859,7 +859,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/stats.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/stats.ts",
 			"comment": {
 				"shortText": "Statistics functions."
 			},
@@ -1378,7 +1378,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/a0115775/Desktop/Cesium Functions/mobius-math/src/typescript/trig.ts",
+			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/trig.ts",
 			"comment": {
 				"shortText": "Trigonometric functions"
 			},

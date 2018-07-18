@@ -5,14 +5,14 @@
 	"flags": {},
 	"children": [
 		{
-			"id": 115,
+			"id": 218,
 			"name": "\"_export\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/_export.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/_export.ts",
 			"sources": [
 				{
 					"fileName": "_export.ts",
@@ -22,14 +22,1805 @@
 			]
 		},
 		{
-			"id": 1,
+			"id": 15,
 			"name": "\"calc\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/calc.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/calc.ts",
+			"comment": {
+				"shortText": "General math functions."
+			},
+			"children": [
+				{
+					"id": 48,
+					"name": "abs",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 49,
+							"name": "abs",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the absolute value of a number.",
+								"text": "Returns num if num is positive, -num if num is negative and 0 if num=0<br/>\n",
+								"returns": "The absolute value of the specified number.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num1 = Math.abs(-1.234)\nnum2 = Math.abs(2.345)\n\nExpected value of num1 is 1.234, and of num2 is 2.345.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 50,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 185,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 93,
+					"name": "acos",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 94,
+							"name": "acos",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the arc cosine (or inverse cosine) (in degrees) of a number.",
+								"returns": "Angle, the arc cosine of num converted to degrees.\n"
+							},
+							"parameters": [
+								{
+									"id": 95,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 386,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 99,
+					"name": "acosh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 100,
+							"name": "acosh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic arc-cosine (in degrees) of a number.",
+								"returns": "Hyperbolic arc-cosine of number.\n"
+							},
+							"parameters": [
+								{
+									"id": 101,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 408,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 81,
+					"name": "asin",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 82,
+							"name": "asin",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the arc-sine (or inverse sine) (in degrees) of a number.",
+								"returns": "Angle, the arc-cosine (in degrees) of num.\n"
+							},
+							"parameters": [
+								{
+									"id": 83,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 342,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 87,
+					"name": "asinh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 88,
+							"name": "asinh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic arcsine (in degrees) of a number.",
+								"returns": "Hyperbolic arcsine of number.\n"
+							},
+							"parameters": [
+								{
+									"id": 89,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 364,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 105,
+					"name": "atan",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 106,
+							"name": "atan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the arc tangent (or inverse tangent) (in degrees) of a number.",
+								"returns": "Angle, the arc tangent of num converted to degrees.\n"
+							},
+							"parameters": [
+								{
+									"id": 107,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 430,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 108,
+					"name": "atan2",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 109,
+							"name": "atan2",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the arctangent (in degrees) of the quotient of its arguments.",
+								"returns": "Angle, the arc tangent of num converted to degrees.\n"
+							},
+							"parameters": [
+								{
+									"id": 110,
+									"name": "num1",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 111,
+									"name": "num2",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 442,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 115,
+					"name": "atanh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 116,
+							"name": "atanh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic arctangent (in degrees) of a number.",
+								"returns": "Hyperbolic arctangent of number.\n"
+							},
+							"parameters": [
+								{
+									"id": 117,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 465,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 42,
+					"name": "ceil",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 43,
+							"name": "ceil",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Rounds a number up to the nearest integer.",
+								"returns": "The smallest integer more than or equal to the specified number.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.ceiling(4.3)\n\nExpected value of num is 5.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 44,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 152,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 90,
+					"name": "cos",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 91,
+							"name": "cos",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the cosine of an angle (in degrees).",
+								"returns": "Cosine of angle.\n"
+							},
+							"parameters": [
+								{
+									"id": 92,
+									"name": "angle",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Angle in degrees."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 375,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 96,
+					"name": "cosh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 97,
+							"name": "cosh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic cosine (in degrees) of a number.",
+								"returns": "Hyperbolic cosine of a number.\n"
+							},
+							"parameters": [
+								{
+									"id": 98,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 397,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 45,
+					"name": "floor",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 46,
+							"name": "floor",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Rounds a number down to the nearest integer.",
+								"returns": "The largest integer less than or equal to the specified number.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.floor(4.3)\n\nExpected value of num is 4.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 47,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 167,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 31,
+					"name": "intMinMax",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 32,
+							"name": "intMinMax",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random integer number between two numbers.",
+								"text": "Lower bound number is inclusive and upper bound number is exclusive.",
+								"returns": "A pseudo-random integer number.\n"
+							},
+							"parameters": [
+								{
+									"id": 33,
+									"name": "min",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Lower inclusive bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 34,
+									"name": "max",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Upper inclusive bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 92,
+							"character": 25
+						}
+					]
+				},
+				{
+					"id": 23,
+					"name": "log",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 24,
+							"name": "log",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns  the natural logarithm (base e) of a number.",
+								"returns": "The natural logarithm (base e).\n"
+							},
+							"parameters": [
+								{
+									"id": 25,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 44,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 26,
+					"name": "log10",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 27,
+							"name": "log10",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the logarithm (base 10) of a number.",
+								"returns": "The logarithm (base 10).\n"
+							},
+							"parameters": [
+								{
+									"id": 28,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 56,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 57,
+					"name": "max",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 58,
+							"name": "max",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the largest number in a array of numbers.",
+								"returns": "The largest number in specified array of numbers.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "array = [8,9,6,1,3]\nnum = Math.max(array)\n\nExpected value of num is 9.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 59,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 245,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 51,
+					"name": "mean",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 52,
+							"name": "mean",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the mean value of an array of numbers.",
+								"returns": "Mean.\n"
+							},
+							"parameters": [
+								{
+									"id": 53,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 221,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 54,
+					"name": "median",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 55,
+							"name": "median",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the median value of an array of numbers.",
+								"returns": "Median.\n"
+							},
+							"parameters": [
+								{
+									"id": 56,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 230,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 60,
+					"name": "min",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 61,
+							"name": "min",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the smallest number in a array of numbers.",
+								"returns": "The smallest number in specified array of numbers.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "nums = [8,9,6,1,3]\nnum = Math.min(nums)\n\nExpected value of num is 1.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 62,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 261,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 63,
+					"name": "mode",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 64,
+							"name": "mode",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the mode of an array of numbers.",
+								"returns": "Mode.\n"
+							},
+							"parameters": [
+								{
+									"id": 65,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 271,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 39,
+					"name": "nearest",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 40,
+							"name": "nearest",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the value of a number rounded to the nearest integer.",
+								"returns": "The nearest integer.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.round(4.5)\n\nExpected value of num is 5.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 41,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 137,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 29,
+					"name": "num",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 30,
+							"name": "num",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).",
+								"returns": "A pseudo-random number.\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 80,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 35,
+					"name": "numMinMax",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 36,
+							"name": "numMinMax",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random floating point number between two numbers.",
+								"returns": "A pseudo-random floating point number.\n"
+							},
+							"parameters": [
+								{
+									"id": 37,
+									"name": "min",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Lower bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 38,
+									"name": "max",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Upper bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 107,
+							"character": 25
+						}
+					]
+				},
+				{
+					"id": 16,
+					"name": "pow",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 17,
+							"name": "pow",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a number representing the given base taken to the power of the given exponent.",
+								"returns": "Number representing the given base taken to the power of the given exponent.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.pow(2,3)\n\nExpected value of num is 8.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 18,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Base number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 19,
+									"name": "exponent",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Power of exponent."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 19,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 66,
+					"name": "product",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 67,
+							"name": "product",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the product of an array of numbers.",
+								"returns": "Product.\n"
+							},
+							"parameters": [
+								{
+									"id": 68,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 280,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 78,
+					"name": "sin",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 79,
+							"name": "sin",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the sine of an angle (in degrees).",
+								"returns": "Sine of angle.\n"
+							},
+							"parameters": [
+								{
+									"id": 80,
+									"name": "angle",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Angle in degrees."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 331,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 84,
+					"name": "sinh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 85,
+							"name": "sinh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic sine (in degrees) of a number.",
+								"returns": "Hyperbolic sine of a number.\n"
+							},
+							"parameters": [
+								{
+									"id": 86,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 353,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 20,
+					"name": "sqrt",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 21,
+							"name": "sqrt",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the square root of a number.",
+								"returns": "The square root.\n"
+							},
+							"parameters": [
+								{
+									"id": 22,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 32,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 69,
+					"name": "std",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 70,
+							"name": "std",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the standard deviation of an array of numbers.",
+								"returns": "Standard deviation.\n"
+							},
+							"parameters": [
+								{
+									"id": 71,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 289,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 72,
+					"name": "sum",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 73,
+							"name": "sum",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the sum of an array of numbers.",
+								"returns": "Sum.\n"
+							},
+							"parameters": [
+								{
+									"id": 74,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 298,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 102,
+					"name": "tan",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 103,
+							"name": "tan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the tangent of an angle (in degrees).",
+								"returns": "Tangent of angle.\n"
+							},
+							"parameters": [
+								{
+									"id": 104,
+									"name": "angle",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Angle in degrees."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 419,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 112,
+					"name": "tanh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 113,
+							"name": "tanh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic tangent (in degrees) of a number.",
+								"returns": "Hyperbolic tangent of a number.\n"
+							},
+							"parameters": [
+								{
+									"id": 114,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 454,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 75,
+					"name": "variance",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 76,
+							"name": "variance",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the variance of an array of numbers.",
+								"returns": "Variance.\n"
+							},
+							"parameters": [
+								{
+									"id": 77,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 307,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						48,
+						93,
+						99,
+						81,
+						87,
+						105,
+						108,
+						115,
+						42,
+						90,
+						96,
+						45,
+						31,
+						23,
+						26,
+						57,
+						51,
+						54,
+						60,
+						63,
+						39,
+						29,
+						35,
+						16,
+						66,
+						78,
+						84,
+						20,
+						69,
+						72,
+						102,
+						112,
+						75
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "calc.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "\"calc-old\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/calc-old.ts",
 			"comment": {
 				"shortText": "General math functions."
 			},
@@ -77,7 +1868,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc.ts",
+							"fileName": "calc-old.ts",
 							"line": 44,
 							"character": 19
 						}
@@ -126,7 +1917,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc.ts",
+							"fileName": "calc-old.ts",
 							"line": 56,
 							"character": 21
 						}
@@ -195,7 +1986,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc.ts",
+							"fileName": "calc-old.ts",
 							"line": 19,
 							"character": 19
 						}
@@ -244,7 +2035,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc.ts",
+							"fileName": "calc-old.ts",
 							"line": 32,
 							"character": 20
 						}
@@ -265,27 +2056,27 @@
 			],
 			"sources": [
 				{
-					"fileName": "calc.ts",
+					"fileName": "calc-old.ts",
 					"line": 1,
 					"character": 0
 				}
 			]
 		},
 		{
-			"id": 15,
+			"id": 118,
 			"name": "\"consts\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/consts.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/consts.ts",
 			"comment": {
 				"shortText": "Constants"
 			},
 			"children": [
 				{
-					"id": 20,
+					"id": 123,
 					"name": "NEG_INF",
 					"kind": 64,
 					"kindString": "Function",
@@ -294,7 +2085,7 @@
 					},
 					"signatures": [
 						{
-							"id": 21,
+							"id": 124,
 							"name": "NEG_INF",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -318,7 +2109,7 @@
 					]
 				},
 				{
-					"id": 16,
+					"id": 119,
 					"name": "PI",
 					"kind": 64,
 					"kindString": "Function",
@@ -327,7 +2118,7 @@
 					},
 					"signatures": [
 						{
-							"id": 17,
+							"id": 120,
 							"name": "PI",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -351,7 +2142,7 @@
 					]
 				},
 				{
-					"id": 18,
+					"id": 121,
 					"name": "POS_INF",
 					"kind": 64,
 					"kindString": "Function",
@@ -360,7 +2151,7 @@
 					},
 					"signatures": [
 						{
-							"id": 19,
+							"id": 122,
 							"name": "POS_INF",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -389,9 +2180,9 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						20,
-						16,
-						18
+						123,
+						119,
+						121
 					]
 				}
 			],
@@ -404,20 +2195,20 @@
 			]
 		},
 		{
-			"id": 22,
+			"id": 125,
 			"name": "\"rand\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/rand.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/rand.ts",
 			"comment": {
 				"shortText": "Functions for generating pseudo-random numbers."
 			},
 			"children": [
 				{
-					"id": 25,
+					"id": 128,
 					"name": "intMinMax",
 					"kind": 64,
 					"kindString": "Function",
@@ -426,7 +2217,7 @@
 					},
 					"signatures": [
 						{
-							"id": 26,
+							"id": 129,
 							"name": "intMinMax",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -438,7 +2229,7 @@
 							},
 							"parameters": [
 								{
-									"id": 27,
+									"id": 130,
 									"name": "min",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -452,7 +2243,7 @@
 									}
 								},
 								{
-									"id": 28,
+									"id": 131,
 									"name": "max",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -481,7 +2272,7 @@
 					]
 				},
 				{
-					"id": 23,
+					"id": 126,
 					"name": "num",
 					"kind": 64,
 					"kindString": "Function",
@@ -490,7 +2281,7 @@
 					},
 					"signatures": [
 						{
-							"id": 24,
+							"id": 127,
 							"name": "num",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -514,7 +2305,7 @@
 					]
 				},
 				{
-					"id": 29,
+					"id": 132,
 					"name": "numMinMax",
 					"kind": 64,
 					"kindString": "Function",
@@ -523,7 +2314,7 @@
 					},
 					"signatures": [
 						{
-							"id": 30,
+							"id": 133,
 							"name": "numMinMax",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -534,7 +2325,7 @@
 							},
 							"parameters": [
 								{
-									"id": 31,
+									"id": 134,
 									"name": "min",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -548,7 +2339,7 @@
 									}
 								},
 								{
-									"id": 32,
+									"id": 135,
 									"name": "max",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -582,9 +2373,9 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						25,
-						23,
-						29
+						128,
+						126,
+						132
 					]
 				}
 			],
@@ -597,20 +2388,20 @@
 			]
 		},
 		{
-			"id": 33,
+			"id": 136,
 			"name": "\"round\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/round.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/round.ts",
 			"comment": {
 				"shortText": "Rounding functions."
 			},
 			"children": [
 				{
-					"id": 43,
+					"id": 146,
 					"name": "abs",
 					"kind": 64,
 					"kindString": "Function",
@@ -619,7 +2410,7 @@
 					},
 					"signatures": [
 						{
-							"id": 44,
+							"id": 147,
 							"name": "abs",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -637,7 +2428,7 @@
 							},
 							"parameters": [
 								{
-									"id": 45,
+									"id": 148,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -666,7 +2457,7 @@
 					]
 				},
 				{
-					"id": 37,
+					"id": 140,
 					"name": "ceil",
 					"kind": 64,
 					"kindString": "Function",
@@ -675,7 +2466,7 @@
 					},
 					"signatures": [
 						{
-							"id": 38,
+							"id": 141,
 							"name": "ceil",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -692,7 +2483,7 @@
 							},
 							"parameters": [
 								{
-									"id": 39,
+									"id": 142,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -721,7 +2512,7 @@
 					]
 				},
 				{
-					"id": 40,
+					"id": 143,
 					"name": "floor",
 					"kind": 64,
 					"kindString": "Function",
@@ -730,7 +2521,7 @@
 					},
 					"signatures": [
 						{
-							"id": 41,
+							"id": 144,
 							"name": "floor",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -747,7 +2538,7 @@
 							},
 							"parameters": [
 								{
-									"id": 42,
+									"id": 145,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -776,7 +2567,7 @@
 					]
 				},
 				{
-					"id": 34,
+					"id": 137,
 					"name": "nearest",
 					"kind": 64,
 					"kindString": "Function",
@@ -785,7 +2576,7 @@
 					},
 					"signatures": [
 						{
-							"id": 35,
+							"id": 138,
 							"name": "nearest",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -802,7 +2593,7 @@
 							},
 							"parameters": [
 								{
-									"id": 36,
+									"id": 139,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -836,10 +2627,10 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						43,
-						37,
-						40,
-						34
+						146,
+						140,
+						143,
+						137
 					]
 				}
 			],
@@ -852,20 +2643,20 @@
 			]
 		},
 		{
-			"id": 46,
+			"id": 149,
 			"name": "\"stats\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/stats.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/stats.ts",
 			"comment": {
 				"shortText": "Statistics functions."
 			},
 			"children": [
 				{
-					"id": 53,
+					"id": 156,
 					"name": "max",
 					"kind": 64,
 					"kindString": "Function",
@@ -874,7 +2665,7 @@
 					},
 					"signatures": [
 						{
-							"id": 54,
+							"id": 157,
 							"name": "max",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -891,7 +2682,7 @@
 							},
 							"parameters": [
 								{
-									"id": 55,
+									"id": 158,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -923,7 +2714,7 @@
 					]
 				},
 				{
-					"id": 47,
+					"id": 150,
 					"name": "mean",
 					"kind": 64,
 					"kindString": "Function",
@@ -932,7 +2723,7 @@
 					},
 					"signatures": [
 						{
-							"id": 48,
+							"id": 151,
 							"name": "mean",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -943,7 +2734,7 @@
 							},
 							"parameters": [
 								{
-									"id": 49,
+									"id": 152,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -975,7 +2766,7 @@
 					]
 				},
 				{
-					"id": 50,
+					"id": 153,
 					"name": "median",
 					"kind": 64,
 					"kindString": "Function",
@@ -984,7 +2775,7 @@
 					},
 					"signatures": [
 						{
-							"id": 51,
+							"id": 154,
 							"name": "median",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -995,7 +2786,7 @@
 							},
 							"parameters": [
 								{
-									"id": 52,
+									"id": 155,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1027,7 +2818,7 @@
 					]
 				},
 				{
-					"id": 56,
+					"id": 159,
 					"name": "min",
 					"kind": 64,
 					"kindString": "Function",
@@ -1036,7 +2827,7 @@
 					},
 					"signatures": [
 						{
-							"id": 57,
+							"id": 160,
 							"name": "min",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1053,7 +2844,7 @@
 							},
 							"parameters": [
 								{
-									"id": 58,
+									"id": 161,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1085,7 +2876,7 @@
 					]
 				},
 				{
-					"id": 59,
+					"id": 162,
 					"name": "mode",
 					"kind": 64,
 					"kindString": "Function",
@@ -1094,7 +2885,7 @@
 					},
 					"signatures": [
 						{
-							"id": 60,
+							"id": 163,
 							"name": "mode",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1105,7 +2896,7 @@
 							},
 							"parameters": [
 								{
-									"id": 61,
+									"id": 164,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1137,7 +2928,7 @@
 					]
 				},
 				{
-					"id": 62,
+					"id": 165,
 					"name": "product",
 					"kind": 64,
 					"kindString": "Function",
@@ -1146,7 +2937,7 @@
 					},
 					"signatures": [
 						{
-							"id": 63,
+							"id": 166,
 							"name": "product",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1157,7 +2948,7 @@
 							},
 							"parameters": [
 								{
-									"id": 64,
+									"id": 167,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1189,7 +2980,7 @@
 					]
 				},
 				{
-					"id": 65,
+					"id": 168,
 					"name": "std",
 					"kind": 64,
 					"kindString": "Function",
@@ -1198,7 +2989,7 @@
 					},
 					"signatures": [
 						{
-							"id": 66,
+							"id": 169,
 							"name": "std",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1209,7 +3000,7 @@
 							},
 							"parameters": [
 								{
-									"id": 67,
+									"id": 170,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1241,7 +3032,7 @@
 					]
 				},
 				{
-					"id": 68,
+					"id": 171,
 					"name": "sum",
 					"kind": 64,
 					"kindString": "Function",
@@ -1250,7 +3041,7 @@
 					},
 					"signatures": [
 						{
-							"id": 69,
+							"id": 172,
 							"name": "sum",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1261,7 +3052,7 @@
 							},
 							"parameters": [
 								{
-									"id": 70,
+									"id": 173,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1293,7 +3084,7 @@
 					]
 				},
 				{
-					"id": 71,
+					"id": 174,
 					"name": "variance",
 					"kind": 64,
 					"kindString": "Function",
@@ -1302,7 +3093,7 @@
 					},
 					"signatures": [
 						{
-							"id": 72,
+							"id": 175,
 							"name": "variance",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1313,7 +3104,7 @@
 							},
 							"parameters": [
 								{
-									"id": 73,
+									"id": 176,
 									"name": "nums",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1350,15 +3141,15 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						53,
-						47,
-						50,
-						56,
-						59,
-						62,
-						65,
-						68,
-						71
+						156,
+						150,
+						153,
+						159,
+						162,
+						165,
+						168,
+						171,
+						174
 					]
 				}
 			],
@@ -1371,20 +3162,20 @@
 			]
 		},
 		{
-			"id": 74,
+			"id": 177,
 			"name": "\"trig\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/StudentResearch/Mobius/mobius_functions/mobius-math/src/typescript/trig.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/trig.ts",
 			"comment": {
 				"shortText": "Trigonometric functions"
 			},
 			"children": [
 				{
-					"id": 90,
+					"id": 193,
 					"name": "acos",
 					"kind": 64,
 					"kindString": "Function",
@@ -1393,7 +3184,7 @@
 					},
 					"signatures": [
 						{
-							"id": 91,
+							"id": 194,
 							"name": "acos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1404,7 +3195,7 @@
 							},
 							"parameters": [
 								{
-									"id": 92,
+									"id": 195,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1433,7 +3224,7 @@
 					]
 				},
 				{
-					"id": 96,
+					"id": 199,
 					"name": "acosh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1442,7 +3233,7 @@
 					},
 					"signatures": [
 						{
-							"id": 97,
+							"id": 200,
 							"name": "acosh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1453,7 +3244,7 @@
 							},
 							"parameters": [
 								{
-									"id": 98,
+									"id": 201,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1482,7 +3273,7 @@
 					]
 				},
 				{
-					"id": 78,
+					"id": 181,
 					"name": "asin",
 					"kind": 64,
 					"kindString": "Function",
@@ -1491,7 +3282,7 @@
 					},
 					"signatures": [
 						{
-							"id": 79,
+							"id": 182,
 							"name": "asin",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1502,7 +3293,7 @@
 							},
 							"parameters": [
 								{
-									"id": 80,
+									"id": 183,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1531,7 +3322,7 @@
 					]
 				},
 				{
-					"id": 84,
+					"id": 187,
 					"name": "asinh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1540,7 +3331,7 @@
 					},
 					"signatures": [
 						{
-							"id": 85,
+							"id": 188,
 							"name": "asinh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1551,7 +3342,7 @@
 							},
 							"parameters": [
 								{
-									"id": 86,
+									"id": 189,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1580,7 +3371,7 @@
 					]
 				},
 				{
-					"id": 102,
+					"id": 205,
 					"name": "atan",
 					"kind": 64,
 					"kindString": "Function",
@@ -1589,7 +3380,7 @@
 					},
 					"signatures": [
 						{
-							"id": 103,
+							"id": 206,
 							"name": "atan",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1600,7 +3391,7 @@
 							},
 							"parameters": [
 								{
-									"id": 104,
+									"id": 207,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1629,7 +3420,7 @@
 					]
 				},
 				{
-					"id": 105,
+					"id": 208,
 					"name": "atan2",
 					"kind": 64,
 					"kindString": "Function",
@@ -1638,7 +3429,7 @@
 					},
 					"signatures": [
 						{
-							"id": 106,
+							"id": 209,
 							"name": "atan2",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1649,7 +3440,7 @@
 							},
 							"parameters": [
 								{
-									"id": 107,
+									"id": 210,
 									"name": "num1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1663,7 +3454,7 @@
 									}
 								},
 								{
-									"id": 108,
+									"id": 211,
 									"name": "num2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1692,7 +3483,7 @@
 					]
 				},
 				{
-					"id": 112,
+					"id": 215,
 					"name": "atanh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1701,7 +3492,7 @@
 					},
 					"signatures": [
 						{
-							"id": 113,
+							"id": 216,
 							"name": "atanh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1712,7 +3503,7 @@
 							},
 							"parameters": [
 								{
-									"id": 114,
+									"id": 217,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1741,7 +3532,7 @@
 					]
 				},
 				{
-					"id": 87,
+					"id": 190,
 					"name": "cos",
 					"kind": 64,
 					"kindString": "Function",
@@ -1750,7 +3541,7 @@
 					},
 					"signatures": [
 						{
-							"id": 88,
+							"id": 191,
 							"name": "cos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1761,7 +3552,7 @@
 							},
 							"parameters": [
 								{
-									"id": 89,
+									"id": 192,
 									"name": "angle",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1790,7 +3581,7 @@
 					]
 				},
 				{
-					"id": 93,
+					"id": 196,
 					"name": "cosh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1799,7 +3590,7 @@
 					},
 					"signatures": [
 						{
-							"id": 94,
+							"id": 197,
 							"name": "cosh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1810,7 +3601,7 @@
 							},
 							"parameters": [
 								{
-									"id": 95,
+									"id": 198,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1839,7 +3630,7 @@
 					]
 				},
 				{
-					"id": 75,
+					"id": 178,
 					"name": "sin",
 					"kind": 64,
 					"kindString": "Function",
@@ -1848,7 +3639,7 @@
 					},
 					"signatures": [
 						{
-							"id": 76,
+							"id": 179,
 							"name": "sin",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1859,7 +3650,7 @@
 							},
 							"parameters": [
 								{
-									"id": 77,
+									"id": 180,
 									"name": "angle",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1888,7 +3679,7 @@
 					]
 				},
 				{
-					"id": 81,
+					"id": 184,
 					"name": "sinh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1897,7 +3688,7 @@
 					},
 					"signatures": [
 						{
-							"id": 82,
+							"id": 185,
 							"name": "sinh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1908,7 +3699,7 @@
 							},
 							"parameters": [
 								{
-									"id": 83,
+									"id": 186,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1937,7 +3728,7 @@
 					]
 				},
 				{
-					"id": 99,
+					"id": 202,
 					"name": "tan",
 					"kind": 64,
 					"kindString": "Function",
@@ -1946,7 +3737,7 @@
 					},
 					"signatures": [
 						{
-							"id": 100,
+							"id": 203,
 							"name": "tan",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -1957,7 +3748,7 @@
 							},
 							"parameters": [
 								{
-									"id": 101,
+									"id": 204,
 									"name": "angle",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -1986,7 +3777,7 @@
 					]
 				},
 				{
-					"id": 109,
+					"id": 212,
 					"name": "tanh",
 					"kind": 64,
 					"kindString": "Function",
@@ -1995,7 +3786,7 @@
 					},
 					"signatures": [
 						{
-							"id": 110,
+							"id": 213,
 							"name": "tanh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -2006,7 +3797,7 @@
 							},
 							"parameters": [
 								{
-									"id": 111,
+									"id": 214,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -2040,19 +3831,19 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						90,
-						96,
-						78,
-						84,
-						102,
-						105,
-						112,
-						87,
-						93,
-						75,
-						81,
-						99,
-						109
+						193,
+						199,
+						181,
+						187,
+						205,
+						208,
+						215,
+						190,
+						196,
+						178,
+						184,
+						202,
+						212
 					]
 				}
 			],
@@ -2070,13 +3861,14 @@
 			"title": "External modules",
 			"kind": 1,
 			"children": [
-				115,
-				1,
+				218,
 				15,
-				22,
-				33,
-				46,
-				74
+				1,
+				118,
+				125,
+				136,
+				149,
+				177
 			]
 		}
 	]

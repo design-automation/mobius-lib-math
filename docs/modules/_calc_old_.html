@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;consts&quot; | mobius-math</title>
+	<title>&quot;calc-old&quot; | mobius-math</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_consts_.html">&quot;consts&quot;</a>
+					<a href="_calc_old_.html">&quot;calc-old&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;consts&quot;</h1>
+			<h1>External module &quot;calc-old&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -67,7 +67,7 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Constants</p>
+						<p>General math functions.</p>
 					</div>
 				</div>
 			</section>
@@ -78,9 +78,10 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_consts_.html#neg_inf" class="tsd-kind-icon">NEG_<wbr>INF</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_consts_.html#pi" class="tsd-kind-icon">PI</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_consts_.html#pos_inf" class="tsd-kind-icon">POS_<wbr>INF</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#log" class="tsd-kind-icon">log</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#log10" class="tsd-kind-icon">log10</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#pow" class="tsd-kind-icon">pow</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#sqrt" class="tsd-kind-icon">sqrt</a></li>
 							</ul>
 						</section>
 					</div>
@@ -89,71 +90,142 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="neg_inf" class="tsd-anchor"></a>
-					<h3>NEG_<wbr>INF</h3>
+					<a name="log" class="tsd-anchor"></a>
+					<h3>log</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">NEG_<wbr>INF<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">log<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/consts.ts#L29">consts.ts:29</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L44">calc-old.ts:44</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns the value of negative infinity</p>
+									<p>Returns  the natural logarithm (base e) of a number.</p>
 								</div>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number.</p>
+									</div>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>Value of negative infinity</p>
+							<p>The natural logarithm (base e).</p>
 						</li>
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="pi" class="tsd-anchor"></a>
-					<h3>PI</h3>
+					<a name="log10" class="tsd-anchor"></a>
+					<h3>log10</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">PI<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">log10<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/consts.ts#L13">consts.ts:13</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L56">calc-old.ts:56</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns the value of PI.</p>
+									<p>Returns the logarithm (base 10) of a number.</p>
 								</div>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number.</p>
+									</div>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>Value of pi</p>
+							<p>The logarithm (base 10).</p>
 						</li>
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="pos_inf" class="tsd-anchor"></a>
-					<h3>POS_<wbr>INF</h3>
+					<a name="pow" class="tsd-anchor"></a>
+					<h3>pow</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">POS_<wbr>INF<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">pow<span class="tsd-signature-symbol">(</span>base<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, exponent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/consts.ts#L21">consts.ts:21</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L19">calc-old.ts:19</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns the value of positive infinity</p>
+									<p>Returns a number representing the given base taken to the power of the given exponent.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.pow(2,3)</p>
+										<p>Expected value of num is 8.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>base: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Base number.</p>
+									</div>
+								</li>
+								<li>
+									<h5>exponent: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Power of exponent.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>Number representing the given base taken to the power of the given exponent.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="sqrt" class="tsd-anchor"></a>
+					<h3>sqrt</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">sqrt<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L32">calc-old.ts:32</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the square root of a number.</p>
 								</div>
 							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number.</p>
+									</div>
+								</li>
+							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>Value of positive infinity</p>
+							<p>The square root.</p>
 						</li>
 					</ul>
 				</section>
@@ -171,10 +243,10 @@
 					<li class=" tsd-kind-external-module">
 						<a href="_calc_.html">"calc"</a>
 					</li>
-					<li class=" tsd-kind-external-module">
+					<li class="current tsd-kind-external-module">
 						<a href="_calc_old_.html">"calc-<wbr>old"</a>
 					</li>
-					<li class="current tsd-kind-external-module">
+					<li class=" tsd-kind-external-module">
 						<a href="_consts_.html">"consts"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
@@ -194,13 +266,16 @@
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_consts_.html#neg_inf" class="tsd-kind-icon">NEG_<wbr>INF</a>
+						<a href="_calc_old_.html#log" class="tsd-kind-icon">log</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_consts_.html#pi" class="tsd-kind-icon">PI</a>
+						<a href="_calc_old_.html#log10" class="tsd-kind-icon">log10</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_consts_.html#pos_inf" class="tsd-kind-icon">POS_<wbr>INF</a>
+						<a href="_calc_old_.html#pow" class="tsd-kind-icon">pow</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_calc_old_.html#sqrt" class="tsd-kind-icon">sqrt</a>
 					</li>
 				</ul>
 			</nav>

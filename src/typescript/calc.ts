@@ -13,7 +13,7 @@
  * @param exponent Power of exponent.
  * @returns Number representing the given base taken to the power of the given exponent.
  * @example num = Math.pow(2,3)
- * 
+ *
  * Expected value of num is 8.
  */
 export function pow(base: number, exponent: number): number {
@@ -57,9 +57,10 @@ export function log10(num: number): number {
     if (num === undefined) {throw new Error("Invalid arg: nums must be defined.");}
     return Math.log10(num);
 }
+
 /*
 
-rand********************************************************************************************************************************************
+rand********************************************************************************************************************
 
 */
 
@@ -112,7 +113,7 @@ export function numMinMax(min: number, max: number): number {
 
 /*
 
-Round******************************************************************************************************************************************
+Round*******************************************************************************************************************
 
 */
 
@@ -131,7 +132,7 @@ Round***************************************************************************
  * @param num Number.
  * @returns The nearest integer.
  * @example num = Math.round(4.5)
- * 
+ *
  * Expected value of num is 5.
  */
 export function nearest(num: number): number {
@@ -161,7 +162,7 @@ export function ceil(num: number): number {
  * @param num Number.
  * @returns The largest integer less than or equal to the specified number.
  * @example num = Math.floor(4.3)
- * 
+ *
  * Expected value of num is 4.
  */
 export function floor(num: number): number {
@@ -189,7 +190,7 @@ export function abs(num: number): number {
 
 /*
 
-stats****************************************************************************************************************************************
+stats*******************************************************************************************************************
 
 */
 
@@ -239,7 +240,7 @@ export function median(nums: number[]): number {
  * @returns The largest number in specified array of numbers.
  * @example array = [8,9,6,1,3]
  * num = Math.max(array)
- * 
+ *
  * Expected value of num is 9.
  */
 export function max(nums: number[]): number {
@@ -255,7 +256,7 @@ export function max(nums: number[]): number {
  * @returns The smallest number in specified array of numbers.
  * @example nums = [8,9,6,1,3]
  * num = Math.min(nums)
- * 
+ *
  * Expected value of num is 1.
  */
 export function min(nums: number[]): number {
@@ -310,7 +311,7 @@ export function variance(nums: number[]): number {
 
 /*
 
-Trig***************************************************************************************************************************************
+Trig********************************************************************************************************************
 
 */
 

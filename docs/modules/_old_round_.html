@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;rand&quot; | mobius-math</title>
+	<title>&quot;old/round&quot; | mobius-math</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_rand_.html">&quot;rand&quot;</a>
+					<a href="_old_round_.html">&quot;old/round&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;rand&quot;</h1>
+			<h1>External module &quot;old/round&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -67,7 +67,7 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>Functions for generating pseudo-random numbers.</p>
+						<p>Rounding functions.</p>
 					</div>
 				</div>
 			</section>
@@ -78,9 +78,10 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_rand_.html#intminmax" class="tsd-kind-icon">int<wbr>Min<wbr>Max</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_rand_.html#num" class="tsd-kind-icon">num</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_rand_.html#numminmax" class="tsd-kind-icon">num<wbr>Min<wbr>Max</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_round_.html#abs" class="tsd-kind-icon">abs</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_round_.html#ceil" class="tsd-kind-icon">ceil</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_round_.html#floor" class="tsd-kind-icon">floor</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_round_.html#nearest" class="tsd-kind-icon">nearest</a></li>
 							</ul>
 						</section>
 					</div>
@@ -89,102 +90,156 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="intminmax" class="tsd-anchor"></a>
-					<h3>int<wbr>Min<wbr>Max</h3>
+					<a name="abs" class="tsd-anchor"></a>
+					<h3>abs</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">int<wbr>Min<wbr>Max<span class="tsd-signature-symbol">(</span>min<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">abs<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/rand.ts#L27">rand.ts:27</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/round.ts#L67">old/round.ts:67</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns a pseudo-random integer number between two numbers.</p>
+									<p>Returns the absolute value of a number.</p>
 								</div>
-								<p>Lower bound number is inclusive and upper bound number is exclusive.</p>
+								<p>Returns num if num is positive, -num if num is negative and 0 if num=0<br/></p>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num1 = Math.abs(-1.234)
+										num2 = Math.abs(2.345)</p>
+										<p>Expected value of num1 is 1.234, and of num2 is 2.345.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>min: <span class="tsd-signature-type">number</span></h5>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Lower inclusive bound of range.</p>
-									</div>
-								</li>
-								<li>
-									<h5>max: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Upper inclusive bound of range.</p>
+										<p>Number.</p>
 									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>A pseudo-random integer number.</p>
+							<p>The absolute value of the specified number.</p>
 						</li>
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="num" class="tsd-anchor"></a>
-					<h3>num</h3>
+					<a name="ceil" class="tsd-anchor"></a>
+					<h3>ceil</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">num<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">ceil<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/rand.ts#L15">rand.ts:15</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/round.ts#L34">old/round.ts:34</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).</p>
+									<p>Rounds a number up to the nearest integer.</p>
 								</div>
-							</div>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>A pseudo-random number.</p>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="numminmax" class="tsd-anchor"></a>
-					<h3>num<wbr>Min<wbr>Max</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">num<wbr>Min<wbr>Max<span class="tsd-signature-symbol">(</span>min<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/rand.ts#L42">rand.ts:42</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns a pseudo-random floating point number between two numbers.</p>
-								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.ceiling(4.3)</p>
+										<p>Expected value of num is 5.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>min: <span class="tsd-signature-type">number</span></h5>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Lower bound of range.</p>
-									</div>
-								</li>
-								<li>
-									<h5>max: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Upper bound of range.</p>
+										<p>Number.</p>
 									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>A pseudo-random floating point number.</p>
+							<p>The smallest integer more than or equal to the specified number.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="floor" class="tsd-anchor"></a>
+					<h3>floor</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">floor<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/round.ts#L49">old/round.ts:49</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Rounds a number down to the nearest integer.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.floor(4.3)</p>
+										<p>Expected value of num is 4.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The largest integer less than or equal to the specified number.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
+					<a name="nearest" class="tsd-anchor"></a>
+					<h3>nearest</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
+						<li class="tsd-signature tsd-kind-icon">nearest<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/round.ts#L19">old/round.ts:19</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns the value of a number rounded to the nearest integer.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><p>num = Math.round(4.5)</p>
+										<p>Expected value of num is 5.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Number.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
+							<p>The nearest integer.</p>
 						</li>
 					</ul>
 				</section>
@@ -203,35 +258,38 @@
 						<a href="_calc_.html">"calc"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_calc_old_.html">"calc-<wbr>old"</a>
+						<a href="_old_calc_old_.html">"old/calc-<wbr>old"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_consts_.html">"consts"</a>
+						<a href="_old_consts_.html">"old/consts"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="_old_rand_.html">"old/rand"</a>
 					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="_rand_.html">"rand"</a>
+						<a href="_old_round_.html">"old/round"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_round_.html">"round"</a>
+						<a href="_old_stats_.html">"old/stats"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_stats_.html">"stats"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_trig_.html">"trig"</a>
+						<a href="_old_trig_.html">"old/trig"</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_rand_.html#intminmax" class="tsd-kind-icon">int<wbr>Min<wbr>Max</a>
+						<a href="_old_round_.html#abs" class="tsd-kind-icon">abs</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_rand_.html#num" class="tsd-kind-icon">num</a>
+						<a href="_old_round_.html#ceil" class="tsd-kind-icon">ceil</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_rand_.html#numminmax" class="tsd-kind-icon">num<wbr>Min<wbr>Max</a>
+						<a href="_old_round_.html#floor" class="tsd-kind-icon">floor</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-external-module">
+						<a href="_old_round_.html#nearest" class="tsd-kind-icon">nearest</a>
 					</li>
 				</ul>
 			</nav>

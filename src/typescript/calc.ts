@@ -78,7 +78,7 @@ rand****************************************************************************
  *
  * @returns A pseudo-random number.
  */
-export function num(): number {
+export function randNum(): number {
     return Math.random();
 }
 
@@ -90,7 +90,7 @@ export function num(): number {
  * @param max Upper inclusive bound of range.
  * @returns A pseudo-random integer number.
  */
-export function intMinMax(min: number, max: number): number {
+export function randIntMinMax(min: number, max: number): number {
     if (min === undefined) {throw new Error("Invalid arg: min must be defined.");}
     if (max === undefined) {throw new Error("Invalid arg: max must be defined.");}
     const lower = Math.ceil(min);
@@ -105,7 +105,7 @@ export function intMinMax(min: number, max: number): number {
  * @param max Upper bound of range.
  * @returns A pseudo-random floating point number.
  */
-export function numMinMax(min: number, max: number): number {
+export function randNumMinMax(min: number, max: number): number {
     if (min === undefined) {throw new Error("Invalid arg: min must be defined.");}
     if (max === undefined) {throw new Error("Invalid arg: max must be defined.");}
     return (Math.random() * (max - min)) + min;

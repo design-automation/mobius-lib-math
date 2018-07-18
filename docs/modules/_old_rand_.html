@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>&quot;calc-old&quot; | mobius-math</title>
+	<title>&quot;old/rand&quot; | mobius-math</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -54,10 +54,10 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="_calc_old_.html">&quot;calc-old&quot;</a>
+					<a href="_old_rand_.html">&quot;old/rand&quot;</a>
 				</li>
 			</ul>
-			<h1>External module &quot;calc-old&quot;</h1>
+			<h1>External module &quot;old/rand&quot;</h1>
 		</div>
 	</div>
 </header>
@@ -67,7 +67,7 @@
 			<section class="tsd-panel tsd-comment">
 				<div class="tsd-comment tsd-typography">
 					<div class="lead">
-						<p>General math functions.</p>
+						<p>Functions for generating pseudo-random numbers.</p>
 					</div>
 				</div>
 			</section>
@@ -78,10 +78,9 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#log" class="tsd-kind-icon">log</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#log10" class="tsd-kind-icon">log10</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#pow" class="tsd-kind-icon">pow</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_calc_old_.html#sqrt" class="tsd-kind-icon">sqrt</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_rand_.html#intminmax" class="tsd-kind-icon">int<wbr>Min<wbr>Max</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_rand_.html#num" class="tsd-kind-icon">num</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-external-module"><a href="_old_rand_.html#numminmax" class="tsd-kind-icon">num<wbr>Min<wbr>Max</a></li>
 							</ul>
 						</section>
 					</div>
@@ -90,142 +89,102 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="log" class="tsd-anchor"></a>
-					<h3>log</h3>
+					<a name="intminmax" class="tsd-anchor"></a>
+					<h3>int<wbr>Min<wbr>Max</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">log<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">int<wbr>Min<wbr>Max<span class="tsd-signature-symbol">(</span>min<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L44">calc-old.ts:44</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/rand.ts#L27">old/rand.ts:27</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns  the natural logarithm (base e) of a number.</p>
+									<p>Returns a pseudo-random integer number between two numbers.</p>
 								</div>
+								<p>Lower bound number is inclusive and upper bound number is exclusive.</p>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<h5>min: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Number.</p>
+										<p>Lower inclusive bound of range.</p>
+									</div>
+								</li>
+								<li>
+									<h5>max: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Upper inclusive bound of range.</p>
 									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>The natural logarithm (base e).</p>
+							<p>A pseudo-random integer number.</p>
 						</li>
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="log10" class="tsd-anchor"></a>
-					<h3>log10</h3>
+					<a name="num" class="tsd-anchor"></a>
+					<h3>num</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">log10<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">num<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L56">calc-old.ts:56</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/rand.ts#L15">old/rand.ts:15</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns the logarithm (base 10) of a number.</p>
+									<p>Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).</p>
 								</div>
 							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>num: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Number.</p>
-									</div>
-								</li>
-							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>The logarithm (base 10).</p>
+							<p>A pseudo-random number.</p>
 						</li>
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="pow" class="tsd-anchor"></a>
-					<h3>pow</h3>
+					<a name="numminmax" class="tsd-anchor"></a>
+					<h3>num<wbr>Min<wbr>Max</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">pow<span class="tsd-signature-symbol">(</span>base<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, exponent<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
+						<li class="tsd-signature tsd-kind-icon">num<wbr>Min<wbr>Max<span class="tsd-signature-symbol">(</span>min<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, max<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L19">calc-old.ts:19</a></li>
+									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2f432be/src/typescript/old/rand.ts#L42">old/rand.ts:42</a></li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
-									<p>Returns a number representing the given base taken to the power of the given exponent.</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>example</dt>
-									<dd><p>num = Math.pow(2,3)</p>
-										<p>Expected value of num is 8.</p>
-									</dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>base: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Base number.</p>
-									</div>
-								</li>
-								<li>
-									<h5>exponent: <span class="tsd-signature-type">number</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Power of exponent.</p>
-									</div>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>Number representing the given base taken to the power of the given exponent.</p>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-external-module">
-					<a name="sqrt" class="tsd-anchor"></a>
-					<h3>sqrt</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-external-module">
-						<li class="tsd-signature tsd-kind-icon">sqrt<span class="tsd-signature-symbol">(</span>num<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in <a href="https://github.com/phtj/mobius-math/blob/2c852ed/src/typescript/calc-old.ts#L32">calc-old.ts:32</a></li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Returns the square root of a number.</p>
+									<p>Returns a pseudo-random floating point number between two numbers.</p>
 								</div>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>num: <span class="tsd-signature-type">number</span></h5>
+									<h5>min: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Number.</p>
+										<p>Lower bound of range.</p>
+									</div>
+								</li>
+								<li>
+									<h5>max: <span class="tsd-signature-type">number</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Upper bound of range.</p>
 									</div>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
-							<p>The square root.</p>
+							<p>A pseudo-random floating point number.</p>
 						</li>
 					</ul>
 				</section>
@@ -243,39 +202,36 @@
 					<li class=" tsd-kind-external-module">
 						<a href="_calc_.html">"calc"</a>
 					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="_old_calc_old_.html">"old/calc-<wbr>old"</a>
+					</li>
+					<li class=" tsd-kind-external-module">
+						<a href="_old_consts_.html">"old/consts"</a>
+					</li>
 					<li class="current tsd-kind-external-module">
-						<a href="_calc_old_.html">"calc-<wbr>old"</a>
+						<a href="_old_rand_.html">"old/rand"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_consts_.html">"consts"</a>
+						<a href="_old_round_.html">"old/round"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_rand_.html">"rand"</a>
+						<a href="_old_stats_.html">"old/stats"</a>
 					</li>
 					<li class=" tsd-kind-external-module">
-						<a href="_round_.html">"round"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_stats_.html">"stats"</a>
-					</li>
-					<li class=" tsd-kind-external-module">
-						<a href="_trig_.html">"trig"</a>
+						<a href="_old_trig_.html">"old/trig"</a>
 					</li>
 				</ul>
 			</nav>
 			<nav class="tsd-navigation secondary menu-sticky">
 				<ul class="before-current">
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_calc_old_.html#log" class="tsd-kind-icon">log</a>
+						<a href="_old_rand_.html#intminmax" class="tsd-kind-icon">int<wbr>Min<wbr>Max</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_calc_old_.html#log10" class="tsd-kind-icon">log10</a>
+						<a href="_old_rand_.html#num" class="tsd-kind-icon">num</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_calc_old_.html#pow" class="tsd-kind-icon">pow</a>
-					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-external-module">
-						<a href="_calc_old_.html#sqrt" class="tsd-kind-icon">sqrt</a>
+						<a href="_old_rand_.html#numminmax" class="tsd-kind-icon">num<wbr>Min<wbr>Max</a>
 					</li>
 				</ul>
 			</nav>

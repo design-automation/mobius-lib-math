@@ -22,7 +22,7 @@
 			]
 		},
 		{
-			"id": 15,
+			"id": 1,
 			"name": "\"calc\"",
 			"kind": 1,
 			"kindString": "External module",
@@ -35,7 +35,7 @@
 			},
 			"children": [
 				{
-					"id": 48,
+					"id": 34,
 					"name": "abs",
 					"kind": 64,
 					"kindString": "Function",
@@ -44,7 +44,7 @@
 					},
 					"signatures": [
 						{
-							"id": 49,
+							"id": 35,
 							"name": "abs",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62,7 +62,7 @@
 							},
 							"parameters": [
 								{
-									"id": 50,
+									"id": 36,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -85,13 +85,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 185,
+							"line": 186,
 							"character": 19
 						}
 					]
 				},
 				{
-					"id": 93,
+					"id": 79,
 					"name": "acos",
 					"kind": 64,
 					"kindString": "Function",
@@ -100,7 +100,7 @@
 					},
 					"signatures": [
 						{
-							"id": 94,
+							"id": 80,
 							"name": "acos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -111,7 +111,7 @@
 							},
 							"parameters": [
 								{
-									"id": 95,
+									"id": 81,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -134,13 +134,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 386,
+							"line": 387,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 99,
+					"id": 85,
 					"name": "acosh",
 					"kind": 64,
 					"kindString": "Function",
@@ -149,7 +149,7 @@
 					},
 					"signatures": [
 						{
-							"id": 100,
+							"id": 86,
 							"name": "acosh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -160,7 +160,7 @@
 							},
 							"parameters": [
 								{
-									"id": 101,
+									"id": 87,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -183,13 +183,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 408,
+							"line": 409,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 81,
+					"id": 67,
 					"name": "asin",
 					"kind": 64,
 					"kindString": "Function",
@@ -198,7 +198,7 @@
 					},
 					"signatures": [
 						{
-							"id": 82,
+							"id": 68,
 							"name": "asin",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -209,7 +209,7 @@
 							},
 							"parameters": [
 								{
-									"id": 83,
+									"id": 69,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -232,13 +232,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 342,
+							"line": 343,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 87,
+					"id": 73,
 					"name": "asinh",
 					"kind": 64,
 					"kindString": "Function",
@@ -247,7 +247,7 @@
 					},
 					"signatures": [
 						{
-							"id": 88,
+							"id": 74,
 							"name": "asinh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -258,7 +258,7 @@
 							},
 							"parameters": [
 								{
-									"id": 89,
+									"id": 75,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -281,13 +281,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 364,
+							"line": 365,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 105,
+					"id": 91,
 					"name": "atan",
 					"kind": 64,
 					"kindString": "Function",
@@ -296,7 +296,7 @@
 					},
 					"signatures": [
 						{
-							"id": 106,
+							"id": 92,
 							"name": "atan",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -307,7 +307,7 @@
 							},
 							"parameters": [
 								{
-									"id": 107,
+									"id": 93,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -330,13 +330,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 430,
+							"line": 431,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 108,
+					"id": 94,
 					"name": "atan2",
 					"kind": 64,
 					"kindString": "Function",
@@ -345,7 +345,7 @@
 					},
 					"signatures": [
 						{
-							"id": 109,
+							"id": 95,
 							"name": "atan2",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -356,7 +356,7 @@
 							},
 							"parameters": [
 								{
-									"id": 110,
+									"id": 96,
 									"name": "num1",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -370,7 +370,7 @@
 									}
 								},
 								{
-									"id": 111,
+									"id": 97,
 									"name": "num2",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -393,13 +393,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 442,
+							"line": 443,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 115,
+					"id": 101,
 					"name": "atanh",
 					"kind": 64,
 					"kindString": "Function",
@@ -408,7 +408,7 @@
 					},
 					"signatures": [
 						{
-							"id": 116,
+							"id": 102,
 							"name": "atanh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -419,7 +419,7 @@
 							},
 							"parameters": [
 								{
-									"id": 117,
+									"id": 103,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -442,13 +442,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 465,
+							"line": 466,
 							"character": 21
 						}
 					]
 				},
 				{
-					"id": 42,
+					"id": 28,
 					"name": "ceil",
 					"kind": 64,
 					"kindString": "Function",
@@ -457,7 +457,7 @@
 					},
 					"signatures": [
 						{
-							"id": 43,
+							"id": 29,
 							"name": "ceil",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -474,7 +474,7 @@
 							},
 							"parameters": [
 								{
-									"id": 44,
+									"id": 30,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -497,13 +497,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 152,
+							"line": 153,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 90,
+					"id": 76,
 					"name": "cos",
 					"kind": 64,
 					"kindString": "Function",
@@ -512,7 +512,7 @@
 					},
 					"signatures": [
 						{
-							"id": 91,
+							"id": 77,
 							"name": "cos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -523,7 +523,7 @@
 							},
 							"parameters": [
 								{
-									"id": 92,
+									"id": 78,
 									"name": "angle",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -546,13 +546,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 375,
+							"line": 376,
 							"character": 19
 						}
 					]
 				},
 				{
-					"id": 96,
+					"id": 82,
 					"name": "cosh",
 					"kind": 64,
 					"kindString": "Function",
@@ -561,7 +561,7 @@
 					},
 					"signatures": [
 						{
-							"id": 97,
+							"id": 83,
 							"name": "cosh",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -572,7 +572,7 @@
 							},
 							"parameters": [
 								{
-									"id": 98,
+									"id": 84,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -595,13 +595,13 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 397,
+							"line": 398,
 							"character": 20
 						}
 					]
 				},
 				{
-					"id": 45,
+					"id": 31,
 					"name": "floor",
 					"kind": 64,
 					"kindString": "Function",
@@ -610,7 +610,7 @@
 					},
 					"signatures": [
 						{
-							"id": 46,
+							"id": 32,
 							"name": "floor",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -627,120 +627,7 @@
 							},
 							"parameters": [
 								{
-									"id": 47,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 167,
-							"character": 21
-						}
-					]
-				},
-				{
-					"id": 31,
-					"name": "intMinMax",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 32,
-							"name": "intMinMax",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a pseudo-random integer number between two numbers.",
-								"text": "Lower bound number is inclusive and upper bound number is exclusive.",
-								"returns": "A pseudo-random integer number.\n"
-							},
-							"parameters": [
-								{
 									"id": 33,
-									"name": "min",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Lower inclusive bound of range."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 34,
-									"name": "max",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Upper inclusive bound of range."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 92,
-							"character": 25
-						}
-					]
-				},
-				{
-					"id": 23,
-					"name": "log",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 24,
-							"name": "log",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns  the natural logarithm (base e) of a number.",
-								"returns": "The natural logarithm (base e).\n"
-							},
-							"parameters": [
-								{
-									"id": 25,
 									"name": "num",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -763,1068 +650,11 @@
 					"sources": [
 						{
 							"fileName": "calc.ts",
-							"line": 44,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 26,
-					"name": "log10",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 27,
-							"name": "log10",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the logarithm (base 10) of a number.",
-								"returns": "The logarithm (base 10).\n"
-							},
-							"parameters": [
-								{
-									"id": 28,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 56,
+							"line": 168,
 							"character": 21
 						}
 					]
 				},
-				{
-					"id": 57,
-					"name": "max",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 58,
-							"name": "max",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the largest number in a array of numbers.",
-								"returns": "The largest number in specified array of numbers.",
-								"tags": [
-									{
-										"tag": "example",
-										"text": "array = [8,9,6,1,3]\nnum = Math.max(array)\n\nExpected value of num is 9.\n"
-									}
-								]
-							},
-							"parameters": [
-								{
-									"id": 59,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 245,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 51,
-					"name": "mean",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 52,
-							"name": "mean",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the mean value of an array of numbers.",
-								"returns": "Mean.\n"
-							},
-							"parameters": [
-								{
-									"id": 53,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 221,
-							"character": 20
-						}
-					]
-				},
-				{
-					"id": 54,
-					"name": "median",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 55,
-							"name": "median",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the median value of an array of numbers.",
-								"returns": "Median.\n"
-							},
-							"parameters": [
-								{
-									"id": 56,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 230,
-							"character": 22
-						}
-					]
-				},
-				{
-					"id": 60,
-					"name": "min",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 61,
-							"name": "min",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the smallest number in a array of numbers.",
-								"returns": "The smallest number in specified array of numbers.",
-								"tags": [
-									{
-										"tag": "example",
-										"text": "nums = [8,9,6,1,3]\nnum = Math.min(nums)\n\nExpected value of num is 1.\n"
-									}
-								]
-							},
-							"parameters": [
-								{
-									"id": 62,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 261,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 63,
-					"name": "mode",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 64,
-							"name": "mode",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the mode of an array of numbers.",
-								"returns": "Mode.\n"
-							},
-							"parameters": [
-								{
-									"id": 65,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 271,
-							"character": 20
-						}
-					]
-				},
-				{
-					"id": 39,
-					"name": "nearest",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 40,
-							"name": "nearest",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the value of a number rounded to the nearest integer.",
-								"returns": "The nearest integer.",
-								"tags": [
-									{
-										"tag": "example",
-										"text": "num = Math.round(4.5)\n\nExpected value of num is 5.\n"
-									}
-								]
-							},
-							"parameters": [
-								{
-									"id": 41,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 137,
-							"character": 23
-						}
-					]
-				},
-				{
-					"id": 29,
-					"name": "num",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 30,
-							"name": "num",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).",
-								"returns": "A pseudo-random number.\n"
-							},
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 80,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 35,
-					"name": "numMinMax",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 36,
-							"name": "numMinMax",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a pseudo-random floating point number between two numbers.",
-								"returns": "A pseudo-random floating point number.\n"
-							},
-							"parameters": [
-								{
-									"id": 37,
-									"name": "min",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Lower bound of range."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 38,
-									"name": "max",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Upper bound of range."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 107,
-							"character": 25
-						}
-					]
-				},
-				{
-					"id": 16,
-					"name": "pow",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 17,
-							"name": "pow",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns a number representing the given base taken to the power of the given exponent.",
-								"returns": "Number representing the given base taken to the power of the given exponent.",
-								"tags": [
-									{
-										"tag": "example",
-										"text": "num = Math.pow(2,3)\n\nExpected value of num is 8.\n"
-									}
-								]
-							},
-							"parameters": [
-								{
-									"id": 18,
-									"name": "base",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Base number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								},
-								{
-									"id": 19,
-									"name": "exponent",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Power of exponent."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 19,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 66,
-					"name": "product",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 67,
-							"name": "product",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the product of an array of numbers.",
-								"returns": "Product.\n"
-							},
-							"parameters": [
-								{
-									"id": 68,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 280,
-							"character": 23
-						}
-					]
-				},
-				{
-					"id": 78,
-					"name": "sin",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 79,
-							"name": "sin",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the sine of an angle (in degrees).",
-								"returns": "Sine of angle.\n"
-							},
-							"parameters": [
-								{
-									"id": 80,
-									"name": "angle",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Angle in degrees."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 331,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 84,
-					"name": "sinh",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 85,
-							"name": "sinh",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the hyperbolic sine (in degrees) of a number.",
-								"returns": "Hyperbolic sine of a number.\n"
-							},
-							"parameters": [
-								{
-									"id": 86,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 353,
-							"character": 20
-						}
-					]
-				},
-				{
-					"id": 20,
-					"name": "sqrt",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 21,
-							"name": "sqrt",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the square root of a number.",
-								"returns": "The square root.\n"
-							},
-							"parameters": [
-								{
-									"id": 22,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 32,
-							"character": 20
-						}
-					]
-				},
-				{
-					"id": 69,
-					"name": "std",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 70,
-							"name": "std",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the standard deviation of an array of numbers.",
-								"returns": "Standard deviation.\n"
-							},
-							"parameters": [
-								{
-									"id": 71,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 289,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 72,
-					"name": "sum",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 73,
-							"name": "sum",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the sum of an array of numbers.",
-								"returns": "Sum.\n"
-							},
-							"parameters": [
-								{
-									"id": 74,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 298,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 102,
-					"name": "tan",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 103,
-							"name": "tan",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the tangent of an angle (in degrees).",
-								"returns": "Tangent of angle.\n"
-							},
-							"parameters": [
-								{
-									"id": 104,
-									"name": "angle",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Angle in degrees."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 419,
-							"character": 19
-						}
-					]
-				},
-				{
-					"id": 112,
-					"name": "tanh",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 113,
-							"name": "tanh",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Returns the hyperbolic tangent (in degrees) of a number.",
-								"returns": "Hyperbolic tangent of a number.\n"
-							},
-							"parameters": [
-								{
-									"id": 114,
-									"name": "num",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Number."
-									},
-									"type": {
-										"type": "intrinsic",
-										"name": "number"
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 454,
-							"character": 20
-						}
-					]
-				},
-				{
-					"id": 75,
-					"name": "variance",
-					"kind": 64,
-					"kindString": "Function",
-					"flags": {
-						"isExported": true
-					},
-					"signatures": [
-						{
-							"id": 76,
-							"name": "variance",
-							"kind": 4096,
-							"kindString": "Call signature",
-							"flags": {},
-							"comment": {
-								"shortText": "Compute the variance of an array of numbers.",
-								"returns": "Variance.\n"
-							},
-							"parameters": [
-								{
-									"id": 77,
-									"name": "nums",
-									"kind": 32768,
-									"kindString": "Parameter",
-									"flags": {},
-									"comment": {
-										"text": "Array of numbers."
-									},
-									"type": {
-										"type": "array",
-										"elementType": {
-											"type": "intrinsic",
-											"name": "number"
-										}
-									}
-								}
-							],
-							"type": {
-								"type": "intrinsic",
-								"name": "number"
-							}
-						}
-					],
-					"sources": [
-						{
-							"fileName": "calc.ts",
-							"line": 307,
-							"character": 24
-						}
-					]
-				}
-			],
-			"groups": [
-				{
-					"title": "Functions",
-					"kind": 64,
-					"children": [
-						48,
-						93,
-						99,
-						81,
-						87,
-						105,
-						108,
-						115,
-						42,
-						90,
-						96,
-						45,
-						31,
-						23,
-						26,
-						57,
-						51,
-						54,
-						60,
-						63,
-						39,
-						29,
-						35,
-						16,
-						66,
-						78,
-						84,
-						20,
-						69,
-						72,
-						102,
-						112,
-						75
-					]
-				}
-			],
-			"sources": [
-				{
-					"fileName": "calc.ts",
-					"line": 1,
-					"character": 0
-				}
-			]
-		},
-		{
-			"id": 1,
-			"name": "\"calc-old\"",
-			"kind": 1,
-			"kindString": "External module",
-			"flags": {
-				"isExported": true
-			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/calc-old.ts",
-			"comment": {
-				"shortText": "General math functions."
-			},
-			"children": [
 				{
 					"id": 9,
 					"name": "log",
@@ -1868,7 +698,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc-old.ts",
+							"fileName": "calc.ts",
 							"line": 44,
 							"character": 19
 						}
@@ -1917,9 +747,336 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc-old.ts",
+							"fileName": "calc.ts",
 							"line": 56,
 							"character": 21
+						}
+					]
+				},
+				{
+					"id": 43,
+					"name": "max",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 44,
+							"name": "max",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the largest number in a array of numbers.",
+								"returns": "The largest number in specified array of numbers.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "array = [8,9,6,1,3]\nnum = Math.max(array)\n\nExpected value of num is 9.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 45,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 246,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 37,
+					"name": "mean",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 38,
+							"name": "mean",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the mean value of an array of numbers.",
+								"returns": "Mean.\n"
+							},
+							"parameters": [
+								{
+									"id": 39,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 222,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 40,
+					"name": "median",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 41,
+							"name": "median",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the median value of an array of numbers.",
+								"returns": "Median.\n"
+							},
+							"parameters": [
+								{
+									"id": 42,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 231,
+							"character": 22
+						}
+					]
+				},
+				{
+					"id": 46,
+					"name": "min",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 47,
+							"name": "min",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the smallest number in a array of numbers.",
+								"returns": "The smallest number in specified array of numbers.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "nums = [8,9,6,1,3]\nnum = Math.min(nums)\n\nExpected value of num is 1.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 48,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 262,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 49,
+					"name": "mode",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 50,
+							"name": "mode",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the mode of an array of numbers.",
+								"returns": "Mode.\n"
+							},
+							"parameters": [
+								{
+									"id": 51,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 272,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 25,
+					"name": "nearest",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 26,
+							"name": "nearest",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the value of a number rounded to the nearest integer.",
+								"returns": "The nearest integer.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.round(4.5)\n\nExpected value of num is 5.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 27,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 138,
+							"character": 23
 						}
 					]
 				},
@@ -1986,9 +1143,319 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc-old.ts",
+							"fileName": "calc.ts",
 							"line": 19,
 							"character": 19
+						}
+					]
+				},
+				{
+					"id": 52,
+					"name": "product",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 53,
+							"name": "product",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the product of an array of numbers.",
+								"returns": "Product.\n"
+							},
+							"parameters": [
+								{
+									"id": 54,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 281,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 17,
+					"name": "randIntMinMax",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 18,
+							"name": "randIntMinMax",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random integer number between two numbers.",
+								"text": "Lower bound number is inclusive and upper bound number is exclusive.",
+								"returns": "A pseudo-random integer number.\n"
+							},
+							"parameters": [
+								{
+									"id": 19,
+									"name": "min",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Lower inclusive bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 20,
+									"name": "max",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Upper inclusive bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 93,
+							"character": 29
+						}
+					]
+				},
+				{
+					"id": 15,
+					"name": "randNum",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 16,
+							"name": "randNum",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random number between 0 (inclusive) and 1 (exclusive).",
+								"returns": "A pseudo-random number.\n"
+							},
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 81,
+							"character": 23
+						}
+					]
+				},
+				{
+					"id": 21,
+					"name": "randNumMinMax",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 22,
+							"name": "randNumMinMax",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a pseudo-random floating point number between two numbers.",
+								"returns": "A pseudo-random floating point number.\n"
+							},
+							"parameters": [
+								{
+									"id": 23,
+									"name": "min",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Lower bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 24,
+									"name": "max",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Upper bound of range."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 108,
+							"character": 29
+						}
+					]
+				},
+				{
+					"id": 64,
+					"name": "sin",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 65,
+							"name": "sin",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the sine of an angle (in degrees).",
+								"returns": "Sine of angle.\n"
+							},
+							"parameters": [
+								{
+									"id": 66,
+									"name": "angle",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Angle in degrees."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 332,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 70,
+					"name": "sinh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 71,
+							"name": "sinh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic sine (in degrees) of a number.",
+								"returns": "Hyperbolic sine of a number.\n"
+							},
+							"parameters": [
+								{
+									"id": 72,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 354,
+							"character": 20
 						}
 					]
 				},
@@ -2035,7 +1502,540 @@
 					],
 					"sources": [
 						{
-							"fileName": "calc-old.ts",
+							"fileName": "calc.ts",
+							"line": 32,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 55,
+					"name": "std",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 56,
+							"name": "std",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the standard deviation of an array of numbers.",
+								"returns": "Standard deviation.\n"
+							},
+							"parameters": [
+								{
+									"id": 57,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 290,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 58,
+					"name": "sum",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 59,
+							"name": "sum",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the sum of an array of numbers.",
+								"returns": "Sum.\n"
+							},
+							"parameters": [
+								{
+									"id": 60,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 299,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 88,
+					"name": "tan",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 89,
+							"name": "tan",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the tangent of an angle (in degrees).",
+								"returns": "Tangent of angle.\n"
+							},
+							"parameters": [
+								{
+									"id": 90,
+									"name": "angle",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Angle in degrees."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 420,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 98,
+					"name": "tanh",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 99,
+							"name": "tanh",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the hyperbolic tangent (in degrees) of a number.",
+								"returns": "Hyperbolic tangent of a number.\n"
+							},
+							"parameters": [
+								{
+									"id": 100,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 455,
+							"character": 20
+						}
+					]
+				},
+				{
+					"id": 61,
+					"name": "variance",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 62,
+							"name": "variance",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Compute the variance of an array of numbers.",
+								"returns": "Variance.\n"
+							},
+							"parameters": [
+								{
+									"id": 63,
+									"name": "nums",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Array of numbers."
+									},
+									"type": {
+										"type": "array",
+										"elementType": {
+											"type": "intrinsic",
+											"name": "number"
+										}
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "calc.ts",
+							"line": 308,
+							"character": 24
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						34,
+						79,
+						85,
+						67,
+						73,
+						91,
+						94,
+						101,
+						28,
+						76,
+						82,
+						31,
+						9,
+						12,
+						43,
+						37,
+						40,
+						46,
+						49,
+						25,
+						2,
+						52,
+						17,
+						15,
+						21,
+						64,
+						70,
+						6,
+						55,
+						58,
+						88,
+						98,
+						61
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "calc.ts",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 104,
+			"name": "\"old/calc-old\"",
+			"kind": 1,
+			"kindString": "External module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/calc-old.ts",
+			"comment": {
+				"shortText": "General math functions."
+			},
+			"children": [
+				{
+					"id": 112,
+					"name": "log",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 113,
+							"name": "log",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns  the natural logarithm (base e) of a number.",
+								"returns": "The natural logarithm (base e).\n"
+							},
+							"parameters": [
+								{
+									"id": 114,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "old/calc-old.ts",
+							"line": 44,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 115,
+					"name": "log10",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 116,
+							"name": "log10",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the logarithm (base 10) of a number.",
+								"returns": "The logarithm (base 10).\n"
+							},
+							"parameters": [
+								{
+									"id": 117,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "old/calc-old.ts",
+							"line": 56,
+							"character": 21
+						}
+					]
+				},
+				{
+					"id": 105,
+					"name": "pow",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 106,
+							"name": "pow",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns a number representing the given base taken to the power of the given exponent.",
+								"returns": "Number representing the given base taken to the power of the given exponent.",
+								"tags": [
+									{
+										"tag": "example",
+										"text": "num = Math.pow(2,3)\n\nExpected value of num is 8.\n"
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 107,
+									"name": "base",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Base number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								},
+								{
+									"id": 108,
+									"name": "exponent",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Power of exponent."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "old/calc-old.ts",
+							"line": 19,
+							"character": 19
+						}
+					]
+				},
+				{
+					"id": 109,
+					"name": "sqrt",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 110,
+							"name": "sqrt",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Returns the square root of a number.",
+								"returns": "The square root.\n"
+							},
+							"parameters": [
+								{
+									"id": 111,
+									"name": "num",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"comment": {
+										"text": "Number."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "old/calc-old.ts",
 							"line": 32,
 							"character": 20
 						}
@@ -2047,16 +2047,16 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						9,
-						12,
-						2,
-						6
+						112,
+						115,
+						105,
+						109
 					]
 				}
 			],
 			"sources": [
 				{
-					"fileName": "calc-old.ts",
+					"fileName": "old/calc-old.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -2064,13 +2064,13 @@
 		},
 		{
 			"id": 118,
-			"name": "\"consts\"",
+			"name": "\"old/consts\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/consts.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/consts.ts",
 			"comment": {
 				"shortText": "Constants"
 			},
@@ -2102,7 +2102,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "consts.ts",
+							"fileName": "old/consts.ts",
 							"line": 29,
 							"character": 23
 						}
@@ -2135,7 +2135,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "consts.ts",
+							"fileName": "old/consts.ts",
 							"line": 13,
 							"character": 18
 						}
@@ -2168,7 +2168,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "consts.ts",
+							"fileName": "old/consts.ts",
 							"line": 21,
 							"character": 23
 						}
@@ -2188,7 +2188,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "consts.ts",
+					"fileName": "old/consts.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -2196,13 +2196,13 @@
 		},
 		{
 			"id": 125,
-			"name": "\"rand\"",
+			"name": "\"old/rand\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/rand.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/rand.ts",
 			"comment": {
 				"shortText": "Functions for generating pseudo-random numbers."
 			},
@@ -2265,7 +2265,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "rand.ts",
+							"fileName": "old/rand.ts",
 							"line": 27,
 							"character": 25
 						}
@@ -2298,7 +2298,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "rand.ts",
+							"fileName": "old/rand.ts",
 							"line": 15,
 							"character": 19
 						}
@@ -2361,7 +2361,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "rand.ts",
+							"fileName": "old/rand.ts",
 							"line": 42,
 							"character": 25
 						}
@@ -2381,7 +2381,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "rand.ts",
+					"fileName": "old/rand.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -2389,13 +2389,13 @@
 		},
 		{
 			"id": 136,
-			"name": "\"round\"",
+			"name": "\"old/round\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/round.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/round.ts",
 			"comment": {
 				"shortText": "Rounding functions."
 			},
@@ -2450,7 +2450,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "round.ts",
+							"fileName": "old/round.ts",
 							"line": 67,
 							"character": 19
 						}
@@ -2505,7 +2505,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "round.ts",
+							"fileName": "old/round.ts",
 							"line": 34,
 							"character": 20
 						}
@@ -2560,7 +2560,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "round.ts",
+							"fileName": "old/round.ts",
 							"line": 49,
 							"character": 21
 						}
@@ -2615,7 +2615,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "round.ts",
+							"fileName": "old/round.ts",
 							"line": 19,
 							"character": 23
 						}
@@ -2636,7 +2636,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "round.ts",
+					"fileName": "old/round.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -2644,13 +2644,13 @@
 		},
 		{
 			"id": 149,
-			"name": "\"stats\"",
+			"name": "\"old/stats\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/stats.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/stats.ts",
 			"comment": {
 				"shortText": "Statistics functions."
 			},
@@ -2707,7 +2707,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 50,
 							"character": 19
 						}
@@ -2759,7 +2759,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 26,
 							"character": 20
 						}
@@ -2811,7 +2811,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 35,
 							"character": 22
 						}
@@ -2869,7 +2869,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 66,
 							"character": 19
 						}
@@ -2921,7 +2921,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 76,
 							"character": 20
 						}
@@ -2973,7 +2973,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 85,
 							"character": 23
 						}
@@ -3025,7 +3025,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 94,
 							"character": 19
 						}
@@ -3077,7 +3077,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 103,
 							"character": 19
 						}
@@ -3129,7 +3129,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "stats.ts",
+							"fileName": "old/stats.ts",
 							"line": 112,
 							"character": 24
 						}
@@ -3155,7 +3155,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "stats.ts",
+					"fileName": "old/stats.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -3163,13 +3163,13 @@
 		},
 		{
 			"id": 177,
-			"name": "\"trig\"",
+			"name": "\"old/trig\"",
 			"kind": 1,
 			"kindString": "External module",
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/trig.ts",
+			"originalName": "D:/Dropbox/Files/Software/GitHub/design-automation/mobius-math/src/typescript/old/trig.ts",
 			"comment": {
 				"shortText": "Trigonometric functions"
 			},
@@ -3217,7 +3217,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 70,
 							"character": 20
 						}
@@ -3266,7 +3266,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 92,
 							"character": 21
 						}
@@ -3315,7 +3315,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 26,
 							"character": 20
 						}
@@ -3364,7 +3364,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 48,
 							"character": 21
 						}
@@ -3413,7 +3413,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 114,
 							"character": 20
 						}
@@ -3476,7 +3476,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 126,
 							"character": 21
 						}
@@ -3525,7 +3525,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 149,
 							"character": 21
 						}
@@ -3574,7 +3574,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 59,
 							"character": 19
 						}
@@ -3623,7 +3623,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 81,
 							"character": 20
 						}
@@ -3672,7 +3672,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 15,
 							"character": 19
 						}
@@ -3721,7 +3721,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 37,
 							"character": 20
 						}
@@ -3770,7 +3770,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 103,
 							"character": 19
 						}
@@ -3819,7 +3819,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "trig.ts",
+							"fileName": "old/trig.ts",
 							"line": 138,
 							"character": 20
 						}
@@ -3849,7 +3849,7 @@
 			],
 			"sources": [
 				{
-					"fileName": "trig.ts",
+					"fileName": "old/trig.ts",
 					"line": 1,
 					"character": 0
 				}
@@ -3862,8 +3862,8 @@
 			"kind": 1,
 			"children": [
 				218,
-				15,
 				1,
+				104,
 				118,
 				125,
 				136,

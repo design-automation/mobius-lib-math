@@ -86,29 +86,29 @@ export function randNum(): number {
  * Returns a pseudo-random integer number between two numbers.
  *
  * Lower bound number is inclusive and upper bound number is exclusive.
- * @param min Lower inclusive bound of range.
- * @param max Upper inclusive bound of range.
+ * @param lower Lower inclusive bound of range.
+ * @param upper Upper inclusive bound of range.
  * @returns A pseudo-random integer number.
  */
-export function randIntMinMax(min: number, max: number): number {
-    if (min === undefined) {throw new Error("Invalid arg: min must be defined.");}
-    if (max === undefined) {throw new Error("Invalid arg: max must be defined.");}
-    const lower = Math.ceil(min);
-    const upper = Math.floor(max);
+export function randIntMinMax(lower: number, upper: number): number {
+    if (lower === undefined) {throw new Error("Invalid arg: lower must be defined.");}
+    if (upper === undefined) {throw new Error("Invalid arg: upper must be defined.");}
+    lower = Math.ceil(lower);
+    upper = Math.floor(upper);
     return Math.floor(Math.random() * (upper - lower)) + lower;
 }
 
 /**
  * Returns a pseudo-random floating point number between two numbers.
  *
- * @param min Lower bound of range.
- * @param max Upper bound of range.
+ * @param lower Lower bound of range.
+ * @param upper Upper bound of range.
  * @returns A pseudo-random floating point number.
  */
-export function randNumMinMax(min: number, max: number): number {
-    if (min === undefined) {throw new Error("Invalid arg: min must be defined.");}
-    if (max === undefined) {throw new Error("Invalid arg: max must be defined.");}
-    return (Math.random() * (max - min)) + min;
+export function randNumMinMax(lower: number, upper: number): number {
+    if (lower === undefined) {throw new Error("Invalid arg: lower must be defined.");}
+    if (upper === undefined) {throw new Error("Invalid arg: upper must be defined.");}
+    return (Math.random() * (upper - lower)) + lower;
 }
 
 /*
